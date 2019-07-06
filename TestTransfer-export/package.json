@@ -1,0 +1,31 @@
+{
+  "fitbit": {
+    "appUUID": "73a56833-7413-4291-8d1d-c1d43951a01e",
+    "appType": "clockface",
+    "appDisplayName": "TestTransfer",
+    "iconFile": "resources/icon.png",
+    "wipeColor": "#607d8b",
+    "requestedPermissions": [],
+    "buildTargets": [
+      "higgs",
+      "meson",
+      "gemini"
+    ],
+    "i18n": {
+      "en": {
+        "name": "TestTransfer"
+      }
+    },
+    "defaultLanguage": "en-US"
+  },
+  "devDependencies": {
+    "@fitbit/sdk": "^3.1.2"
+  },
+  "dependencies": {
+    "@fitbit/sdk-cli": "^1.6.3",
+    "gulp": "^4.0.2"
+  },
+  "scripts": {
+    "build": "fitbit-build"
+  }
+}
